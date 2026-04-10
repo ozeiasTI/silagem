@@ -1,0 +1,30 @@
+export const theme = {
+    colors: {
+        ink: "#102A22",
+        forest: "#12372A",
+        moss: "#436850",
+        sage: "#7C9D7E",
+        sand: "#F3EFE5",
+        clay: "#E4D7BF",
+        card: "#FFFDF8",
+        accent: "#D97904",
+        accentSoft: "#F3B562",
+        danger: "#B3261E",
+        textMuted: "#5A6B64",
+        line: "#D7CCBA",
+        white: "#FFFFFF",
+    },
+    radius: {
+        sm: 12,
+        md: 18,
+        lg: 28,
+        xl: 36,
+    },
+    shadow: {
+        shadowColor: "#102A22",
+        shadowOpacity: 0.08,
+        shadowRadius: 18,
+        shadowOffset: { width: 0, height: 8 },
+        elevation: 4,
+    },
+};

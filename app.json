@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Silagem",
+    "slug": "silagem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "backgroundColor": "#12372A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.ozeiasmeira.silagem",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#12372A"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.ozeiasmeira.silagem"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cfc75f57-90d8-481c-bf3f-a0e159c82e08"
+      }
+    }
+  }
+}
