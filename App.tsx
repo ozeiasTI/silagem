@@ -94,7 +94,7 @@ export default function App() {
             } catch (error) {
                 Alert.alert(
                     "Falha ao carregar dados",
-                    "Não foi possível recuperar as configurações locais.",
+                    "Não foi possivel recuperar as configurações locais.",
                 );
             } finally {
                 setIsHydrated(true);
@@ -240,8 +240,8 @@ export default function App() {
 
     const clearHistory = () => {
         Alert.alert(
-            "Limpar histórico",
-            "Deseja remover todas as medições salvas?",
+            "Limpar histórico.",
+            "Deseja remover todas as medições salvas ?",
             [
                 { text: "Cancelar", style: "cancel" },
                 {

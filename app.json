@@ -15,14 +15,14 @@
             "**/*"
         ],
         "android": {
-            "package": "com.ozeiasmeira.silagem",
+            "package": "com.ozeiasmeira.silagemapp2026",
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#12372A"
             }
         },
         "ios": {
-            "bundleIdentifier": "com.ozeiasmeira.silagem"
+            "bundleIdentifier": "com.ozeiasmeira.silagemapp2026"
         },
         "web": {
             "bundler": "metro",
